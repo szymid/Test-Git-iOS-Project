@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3738BAB1CB3133C00EA1F00 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3738BAA1CB3133C00EA1F00 /* SecondViewController.swift */; };
+		A3738BAD1CB3173D00EA1F00 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3738BAC1CB3173D00EA1F00 /* ThirdViewController.swift */; };
 		A3CD76541CAEDC7B00040256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CD76531CAEDC7B00040256 /* AppDelegate.swift */; };
 		A3CD76561CAEDC7B00040256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CD76551CAEDC7B00040256 /* ViewController.swift */; };
 		A3CD76591CAEDC7B00040256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CD76571CAEDC7B00040256 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3738BAA1CB3133C00EA1F00 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A3738BAC1CB3173D00EA1F00 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A3CD76501CAEDC7B00040256 /* AnimalTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CD76531CAEDC7B00040256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3CD76551CAEDC7B00040256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3738B2F1CB2E07100EA1F00 /* support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
 		A3CD76471CAEDC7B00040256 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +112,14 @@
 			children = (
 				A3CD76531CAEDC7B00040256 /* AppDelegate.swift */,
 				A3CD76551CAEDC7B00040256 /* ViewController.swift */,
+				A3738BAA1CB3133C00EA1F00 /* SecondViewController.swift */,
+				A3738BAC1CB3173D00EA1F00 /* ThirdViewController.swift */,
 				A3CD76571CAEDC7B00040256 /* Main.storyboard */,
 				A3CD765D1CAEDC7B00040256 /* Assets.xcassets */,
 				A3CD765F1CAEDC7B00040256 /* LaunchScreen.storyboard */,
 				A3CD76621CAEDC7B00040256 /* Info.plist */,
 				A3CD765A1CAEDC7B00040256 /* AnimalTrivia.xcdatamodeld */,
+				A3738B2F1CB2E07100EA1F00 /* support */,
 			);
 			path = AnimalTrivia;
 			sourceTree = "<group>";
@@ -262,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3738BAB1CB3133C00EA1F00 /* SecondViewController.swift in Sources */,
 				A3CD76561CAEDC7B00040256 /* ViewController.swift in Sources */,
+				A3738BAD1CB3173D00EA1F00 /* ThirdViewController.swift in Sources */,
 				A3CD765C1CAEDC7B00040256 /* AnimalTrivia.xcdatamodeld in Sources */,
 				A3CD76541CAEDC7B00040256 /* AppDelegate.swift in Sources */,
 			);
@@ -491,6 +507,7 @@
 				A3CD767D1CAEDC7B00040256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3CD767E1CAEDC7B00040256 /* Build configuration list for PBXNativeTarget "AnimalTriviaTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +516,7 @@
 				A3CD76801CAEDC7B00040256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3CD76811CAEDC7B00040256 /* Build configuration list for PBXNativeTarget "AnimalTriviaUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +525,7 @@
 				A3CD76831CAEDC7B00040256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
